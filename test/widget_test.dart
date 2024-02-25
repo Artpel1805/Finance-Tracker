@@ -26,5 +26,16 @@ void main() {
     // Verify that our counter has incremented.
     expect(find.text('0'), findsNothing);
     expect(find.text('1'), findsOneWidget);
+
+    await tester.tap(find.byIcon(Icons.remove));
+    await tester.pump();
+
+    
+    await tester.tap(find.byIcon(Icons.remove));
+    await tester.pump();
+
+    expect(find.text('-1'), findsOneWidget);
+    expect(find.text('0'), findsNothing);
+
   });
 }

@@ -3,11 +3,14 @@ import 'package:flutter_artpel1805_template/l10n/l10n.dart';
 import 'package:flutter_artpel1805_template/app/navigation/routes.dart';
 
 class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+  const MyApp({
+    super.key,
+  });
 
   @override
   Widget build(BuildContext context) {
     return MaterialApp.router(
+    
       routerConfig: router,
       localizationsDelegates: L10n.delegate,
       supportedLocales: L10n.all,
