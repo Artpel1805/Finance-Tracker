@@ -15,7 +15,7 @@
         "name": "staging",
         "request": "launch",
         "type": "dart",
-        "args": ["--flavor", "Staging", "-t", "lib/main_staging.dart"]
+        "args": ["--flavor", "Staging", "-t", "lib/main.staging.dart"]
       }
     ],
 }

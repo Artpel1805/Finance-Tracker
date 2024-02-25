@@ -1,4 +1,4 @@
-import 'package:flutter_artpel1805_template/screens/home_screen.dart';
+import 'package:flutter_artpel1805_template/app/screens/home_screen.dart';
 import 'package:go_router/go_router.dart';
 
 // GoRouter configuration
