@@ -11,8 +11,3 @@ Including:
 - Flavor
 - VsCode Config
 
-
-## TODO
-
-- Change Package Name
-- Change Bundle Identifier
