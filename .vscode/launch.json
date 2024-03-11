@@ -4,7 +4,12 @@
     // Pour plus d'informations, visitez : https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-
+       {
+        "name": "unflavored",
+        "request": "launch",
+        "type": "dart",
+        "args": [ "-t", "lib/main.dart"]
+      },
       {
         "name": "prod",
         "request": "launch",
