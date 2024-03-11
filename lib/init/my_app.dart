@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_artpel1805_template/l10n/l10n.dart';
-import 'package:flutter_artpel1805_template/app/navigation/routes.dart';
+import 'package:saving_goal/app/navigation/routes.dart';
+import 'package:saving_goal/l10n/l10n.dart';
 
 class MyApp extends StatelessWidget {
   const MyApp({
@@ -15,10 +15,9 @@ class MyApp extends StatelessWidget {
       localizationsDelegates: L10n.delegate,
       supportedLocales: L10n.all,
       localeListResolutionCallback: localeListCallback,
-      //TODO Change Title
-      title: 'ArtPel1805 Template',
+      title: 'Saving Goal',
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepOrange),
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.white),
         useMaterial3: true,
       ),
     );

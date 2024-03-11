@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_artpel1805_template/init/my_app.dart';
+import 'package:saving_goal/init/my_app.dart';
 
 class AppInit {
   static void run(String flavor) {
